@@ -5,6 +5,7 @@ public class Granja
     private Granjero granjero;
     private String nombre;
     private String ubicacion;
+    private int numeroAnimales;
     
     public Granja(Granjero granjero)
     {
@@ -16,6 +17,7 @@ public class Granja
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.granjero = granjero;
+        this.numeroAnimales = 20;
     }
     
     public String toString()
@@ -31,6 +33,7 @@ public class Granja
         resultado.append("\nGranjero: ");
         resultado.append("\n======================");
         resultado.append(granjero);
+        resultado.append(numeroAnimales);
         
         return resultado.toString();
     }
