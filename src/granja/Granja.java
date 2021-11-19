@@ -12,12 +12,12 @@ public class Granja
         this.granjero = granjero;
     }
     
-    public Granja(String nombre, String ubicacion, Granjero granjero)
+    public Granja(String nombre, String ubicacion, Granjero granjero, int numeroAnimales)
     {
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.granjero = granjero;
-        this.numeroAnimales = 20;
+        this.numeroAnimales = numeroAnimales;
     }
     
     public String toString()
@@ -28,12 +28,13 @@ public class Granja
         resultado.append("\n======================");
         resultado.append("\nNombre: ");
         resultado.append(nombre);
-        resultado.append("\nUbicaciÃ³n: ");
+        resultado.append("\nUbicacion: ");
         resultado.append(ubicacion);
+        resultado.append("\nNúmero de animales: ");
+        resultado.append(numeroAnimales);
         resultado.append("\nGranjero: ");
         resultado.append("\n======================");
         resultado.append(granjero);
-        resultado.append(numeroAnimales);
         
         return resultado.toString();
     }
