@@ -9,7 +9,7 @@ public class Granja
     
     public Granja(Granjero granjero)
     {
-        this.granjero = granjero; //AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        this.granjero = granjero; //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgtwtt
     }
     
     public Granja(String nombre, String ubicacion, Granjero granjero, int numeroAnimales)
